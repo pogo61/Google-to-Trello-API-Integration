@@ -1,0 +1,14 @@
+#%RAML 0.8
+title: Google To Trello Integration
+version: 1.0
+baseUri: http://win7-64-vm:9905/google2trello_int
+/spreadsheet:
+  post:
+    description: <<take the details of the Google Sheets Spreadsheet and create a |
+                   Trello board with lists and cards>>
+    body:
+      application/json:
+    responses:
+      200:
+        body:
+          application/json:
