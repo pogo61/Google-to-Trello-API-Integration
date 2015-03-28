@@ -1,6 +1,8 @@
-# SOA Software API HOOK
-Put a nice company logo image here. 
-Link to product documentation and product overview page
+# Akana API HOOK
+![Image of Akana] 
+(https://www.akana.com/img/formerlyLOGO8.png) 
+[Akana.com](http://akana.com)
+
 ## Google Sheets API to Trello API integration
 ### About the API
 - This integration API takes the name of an already defined Google Sheet spreadsheet and converts it to a Trello Board. The name of the spreadsheet becomes the Board name. The names of the worksheets, inside the spreadsheet, become the List names of the Board. The values of the first cell in a row in a worksheet becomes the name of a Card in the List.
